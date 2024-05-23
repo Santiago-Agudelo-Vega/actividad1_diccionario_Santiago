@@ -47,5 +47,5 @@ def main():
     for estudiante in estudiantes_pendientes:
         print(f"Código: {estudiante['codigo']}, Nombre: {estudiante['nombre']} {estudiante['apellidos']}, Sexo: {estudiante['sexo']}, Edad: {estudiante['edad']}, Estrato: {estudiante['estrato']}")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
